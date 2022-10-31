@@ -1,0 +1,43 @@
+
+  
+nav:
+  - 主页: 'index.md'
+  - 老的:
+    - 包工头日记: 'old/包工头日记.md'
+plugins:
+  - markdownextradata: {}
+    
+markdown_extensions:
+  - abbr
+  - admonition
+  - smarty
+  - sane_lists
+  - attr_list
+  - md_in_html
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+theme: 
+    name: material
+    language: zh
+
+    
+site_name: 地球开发商
