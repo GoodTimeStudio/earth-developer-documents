@@ -2,8 +2,11 @@
   
 nav:
   - 主页: 'index.md'
-  - 老的:
+  - 老:
     - 包工头日记: 'old/包工头日记.md'
+  - 新《地球开发商》:
+    - 主页: 'new/index.md'
+    - 总说明: 'new/earth developer.md'
 plugins:
   - markdownextradata: {}
     
